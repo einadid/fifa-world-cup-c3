@@ -5,6 +5,9 @@
     margin: 0%;
     font-family: "Poppins", sans-serif;
 }
+.center{
+    justify-content: center;
+}
 
 /* container */
 .container{
@@ -23,6 +26,49 @@
     gap: 10px;
     border: none;
 }
+.btn-Upcoming{
+    background-color: #ffffff;
+    color: #161616;
+    padding: 17px 39px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    gap: 10px;
+    border: none;
+    width: 252px;
+    height: 64px;
+    display:grid ;
+    justify-content: center;
+}
+.btn-Group{
+    background-color: #ffffff;
+    color: #161616;
+    padding: 17px 40px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    gap: 10px;
+    border: none;
+    width: 252px;
+    height: 64px;
+    display:grid ;
+    justify-content: center;
+}
+.btn-blog{
+    background-color: #DD0000;
+    color: #fff;
+    padding: 17px 40px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    gap: 10px;
+    border: none;
+    width: 252px;
+    height: 64px;
+    display:grid ;
+    justify-content: center;
+}
+
 .btn-primary img{
     width: 25px;
     height: 25px;
@@ -33,13 +79,15 @@
 }
 
 /* header */
-header{
+.banner{
+    margin-top: 80px;
     display: flex;
     background-color: #161616;
-    padding:  0;
+    padding: 0;
     align-items: center;
     border-radius: 15px;
     justify-content: space-around;
+    margin-bottom : 100px ;
 }
 header h1{
     color: #fff;
@@ -68,3 +116,14 @@ header img{
 .header-right{
     margin-top: 33px;
 }
+
+/* video section */
+.video-left{
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+
