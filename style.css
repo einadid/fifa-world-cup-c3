@@ -8,6 +8,13 @@
 .center{
     justify-content: center;
 }
+.flex{
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
 
 /* container */
 .container{
@@ -118,6 +125,10 @@ header img{
 }
 
 /* video section */
+.video{
+    display: flex;
+    justify-content: space-between;
+}
 .video-left{
     background-color: #161616;
     width: 312px;
@@ -126,4 +137,56 @@ header img{
     display: grid;
     place-items: center;
 }
+.video-right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 56px;
+}
+
+
+.video-card{
+    border: #1616162f solid 1px;
+    width: 312px;
+    height: 362px;
+    border-radius: 10px;
+}
+.video-card img{
+    height: 180px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.video-card-content{
+    margin: 15px;
+}
+.video-card h3{
+    font-size: 1.1rem;
+    font-weight: 300px;
+    margin-bottom: 20px;
+}
+.btn-card{
+    background-color: #ffffff;
+    color: #161616;
+    padding: 4px 16px;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    border: #161616 solid 1px;
+    margin-bottom: 15px ;
+}
+.video-card-time-comment{
+    gap: 40px;
+}
+.clock-icon{
+    margin-right: 8px;
+}
+.comment-icon{
+    margin-right: 8px;
+}
+
+
+
+
 
